@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name       Empornium Quick Thumbnail Preview
-// @namespace      https://github.com/LenAnderson/
-// @version 0.8
-// @include    http://torrents.empornium.me/torrents.php*
-// @include    http://torrents.empornium.me/user.php*
-// @include    http://torrents.empornium.me/collages.php?id*
-// @include    http://pornbay.org/torrents.php*
-// @include    http://pornbay.org/user.php*
-// @include    http://torrents.empornium.me/top10.php*
+// @name        Empornium Quick Thumbnail Preview
+// @namespace   https://github.com/LenAnderson/
+// @downloadURL https://github.com/LenAnderson/Empornium-Quick-Thumbnail-Preview/raw/master/empornium_quick_thumbnail_preview.user.js
+// @version     0.9
+// @include     http://torrents.empornium.me/torrents.php*
+// @include     http://torrents.empornium.me/user.php*
+// @include     http://torrents.empornium.me/collages.php?id*
+// @include     http://pornbay.org/torrents.php*
+// @include     http://pornbay.org/user.php*
+// @include     http://torrents.empornium.me/top10.php*
 // ==/UserScript==
 (function() {
     var keepVisible = false;

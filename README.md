@@ -1,11 +1,16 @@
 #Empornium Quick Thumbnail Preview
 Add mouseover-previews to the new and improved Empornium's search/browse function.
 
-## Description
-This script allows you to view the preview pictures of Empornium torrents without going to the detail page. Just move your mouse cursor over the icon in the type column (far left) and a tooltip will open which allows you to go through the previews, thank the uploader and download a torrent without ever leaving the browse page.
-
 ## Installation
 Click on the file ending in `.user.js` and click on the _Raw_ button to open the file directly. This should trigger your userscript plug-in to ask you to install the script.
+
+## Issues / Requests / Questions...
+To report any issues, make requests or ask questions about the script please use GitHub's issue tracker.
+
+---
+
+## Description
+This script allows you to view the preview pictures of Empornium torrents without going to the detail page. Just move your mouse cursor over the icon in the type column (far left) and a tooltip will open which allows you to go through the previews, thank the uploader and download a torrent without ever leaving the browse page.
 
 ## Features
 * View preview pictures

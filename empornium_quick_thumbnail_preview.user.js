@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Empornium Quick Thumbnail Preview
-// @namespace  https://github.com/LenAnderson/userscripts/
+// @namespace      https://github.com/LenAnderson/
 // @version 0.8
 // @include    http://torrents.empornium.me/torrents.php*
 // @include    http://torrents.empornium.me/user.php*

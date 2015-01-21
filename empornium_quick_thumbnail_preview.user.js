@@ -2,7 +2,10 @@
 // @name        Empornium Quick Thumbnail Preview
 // @namespace   https://github.com/LenAnderson/
 // @downloadURL https://github.com/LenAnderson/Empornium-Quick-Thumbnail-Preview/raw/master/empornium_quick_thumbnail_preview.user.js
-// @version     0.10
+// @version     0.11
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @grant       GM_registerMenuCommand
 // @include     http://torrents.empornium.me/torrents.php*
 // @include     http://torrents.empornium.me/user.php*
 // @include     http://torrents.empornium.me/collages.php?id*
@@ -102,6 +105,7 @@
         }
         //location.href = "http://torrents.empornium.me/download.php?torrent=" + id;
         window.open(dlink);
+        focus();
     }
     
     function loadContainer(that) {

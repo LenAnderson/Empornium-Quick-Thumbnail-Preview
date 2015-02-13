@@ -2,7 +2,7 @@
 // @name        Empornium Quick Thumbnail Preview
 // @namespace   https://github.com/LenAnderson/
 // @downloadURL https://github.com/LenAnderson/Empornium-Quick-Thumbnail-Preview/raw/master/empornium_quick_thumbnail_preview.user.js
-// @version     0.11
+// @version     0.12
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_registerMenuCommand
@@ -15,6 +15,15 @@
 // @include     http://pornbay.org/torrents.php*
 // @include     http://pornbay.org/user.php*
 // @include     http://torrents.empornium.me/top10.php*
+// @include     https://torrents.empornium.me/torrents.php*
+// @include     https://torrents.empornium.me/user.php*
+// @include     https://torrents.empornium.me/collages.php?id*
+// @include     https://www.empornium.me/torrents.php*
+// @include     https://www.empornium.me/user.php*
+// @include     https://www.empornium.me/collages.php?id*
+// @include     https://pornbay.org/torrents.php*
+// @include     https://pornbay.org/user.php*
+// @include     https://torrents.empornium.me/top10.php*
 // ==/UserScript==
 (function() {
     var keepVisible = false;

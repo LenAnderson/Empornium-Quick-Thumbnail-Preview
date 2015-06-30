@@ -277,7 +277,7 @@
         if (keepVisible)
             return null;
         pageX = evt.pageX;
-        pageY = evt.pageY - document.body.scrollTop;
+        pageY = evt.pageY - document.body.scrollTop - document.body.parentElement.scrollTop;
         updatePositions();
     }
     

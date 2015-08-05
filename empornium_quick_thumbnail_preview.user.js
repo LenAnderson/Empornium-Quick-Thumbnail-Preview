@@ -2,7 +2,7 @@
 // @name        Empornium Quick Thumbnail Preview
 // @namespace   https://github.com/LenAnderson/
 // @downloadURL https://github.com/LenAnderson/Empornium-Quick-Thumbnail-Preview/raw/master/empornium_quick_thumbnail_preview.user.js
-// @version     0.13
+// @version     0.14
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_registerMenuCommand

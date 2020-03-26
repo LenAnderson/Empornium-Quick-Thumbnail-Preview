@@ -2,7 +2,7 @@
 // @name        Empornium Quick Thumbnail Preview
 // @namespace   https://github.com/LenAnderson/
 // @downloadURL https://github.com/LenAnderson/Empornium-Quick-Thumbnail-Preview/raw/master/empornium_quick_thumbnail_preview.user.js
-// @version     0.14
+// @version     0.15
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_registerMenuCommand
@@ -124,7 +124,7 @@
             var divs = div.getElementsByTagName('div');
             var desc;
             for (var i=0;i<divs.length;i++) {
-                if (divs[i].id.toLowerCase() == 'descbox') {
+                if (divs[i].id.toLowerCase() == `content${id}`) {
                     desc = divs[i];
                 }
             }
